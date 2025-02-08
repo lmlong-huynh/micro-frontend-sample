@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
     federation({
-      name: 'menus',
+      name: 'app1',
       filename: 'remoteEntry.js',
       exposes: {
         './entry': './src/entry.js',
